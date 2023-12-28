@@ -4,28 +4,119 @@
 
 }
 .container{
-    min-height: auto;
+    height: 100%;
     background-color:azure;
+    display: flex;
 }
 .nav{
-    height: 50px;
-    width: 100%;
-    background-color:aqua;
+    height: 60px;
+    width: 91%;
+    background-color:rgb(232, 231, 217);
     display: flex;
-    justify-content:space-around;
-	align-items: center;
-	font-size: 20px;
-    padding-right:20px;
-	
+    justify-content: space-between;
+    align-items: center;
+    padding-left:133px;
 }
-    
+.logo-nav{
+    font-size:18px;
+    font-weight: 800;
+    height:60px;
+    width:250px;
+    border-right:2px solid gray;
+    display: flex;
+    margin-top:-60px;
+    justify-content: center;
+    align-items: center;
+   
 
-
-
-.frontFoto{
-    height:90vb;
-    width:1005;
-    background-color:bisque;
+}
+.e-mail{
+    font-size:18px;
+    font-weight: 800;
+    height:60px;
+    width:300px;
+    border-right:2px solid gray;
+    display: flex;
+    margin-left:500px;
+    margin-top:-60px;
+    justify-content: center;
+    align-items: center;
+}
+.tele{
+    font-size:18px;
+    font-weight: 800;
+    height:60px;
+    width:250px;
+    border-right:2px solid gray;
+    justify-content: center;
+    display: flex;
+    margin-left:250px;
+    margin-top:-60px;
+    justify-content: center;
+    align-items:center;
+}
+.iconFoto{
     display:flex;
-    
+    color: rgb(93, 76, 76);
+    font-size: 24px;
+}
+.ring{
+    height:35px;
+    width:35px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    height: 60px;
+    width:60px;
+    background-color:red;
+    display:flex;
+    margin-left:auto;
+    margin-top:-60px;
+}
+
+
+
+.FrontFoto{
+    height: 600px;
+    background-color: rgb(214, 127, 20);
+    display: flex;
+    margin-top:0px;
+    border:solid 2px black;
+   
+}
+.SecendPage{
+    height: 800px;
+    background-color:red;
+}
+.Uslugi{
+    height: 750px;
+    background-color:rgb(138, 102, 102);
+
+}
+
+.region{
+    height: 750px;
+    background-color:rgb(66, 38, 38);
+
+}
+
+.kontakt{
+    height: 750px;
+    background-color:rgb(129, 41, 41);
+
+}
+
+.map{
+    height: 350px;
+    background-color:rgb(66, 38, 38);
+
+}
+
+.fotter{
+    height: 550px;
+    background-color:rgb(20, 11, 138);
+
 }
